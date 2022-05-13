@@ -65,44 +65,48 @@ a:hover{
 .box{
     display:flex;
     border:1px solid #181719; 
-    width:200px;
+    width:250px;
     height:100px;
     background: #181719;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    justify-items:space-between;
      position:absolute;
      bottom:100px;
-     
-    left:1050px;
+    left:1000px;
+    padding:10px;
+    justify-content: space-between;
 }
 .box p{
     font-family: 'Montserrat' sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 17px;
-    padding:10px;
 }
-.box h4{
-    padding:5px;
+.box h3{
+    padding:0px;
     font-family: 'Lora', serif;
+    font-size:24px;
 }
 .box img{
     width:40px;
     height:40px;
     border-radius: 50%;
 }
-.text p{
-    opacity:40%;
-    padding:0;
+.text{
+    margin-left:15px;
 }
-.text h6{
+.text p{
+    opacity:50%;
+    font-size:12px;
+}
+.text h4{
     padding-top:10px;
     font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    text-align:left;
 }
 footer{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 12px;
     padding:40px;
 }
